@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Variabel dalam Javascript</title>
+    <script>
+        // Membuat fungsi untuk memulai permainan
+function mulaiPermainan() {
+  // Menampilkan pesan untuk meminta input dari user
+  var pilihanUser = prompt("Masukkan pilihan Anda: batu, kertas, atau gunting");
+
+  // Mengecek apakah input user valid
+  if (pilihanUser != null) {
+    pilihanUser = pilihanUser.toLowerCase(); // Mengubah input user menjadi huruf kecil
+
+    // Membuat pilihan komputer secara acak
+    var pilihanKomputer = Math.random();
+    if (pilihanKomputer < 0.34) {
+      pilihanKomputer = "batu";
+    } else if (pilihanKomputer <= 0.67) {
+      pilihanKomputer = "kertas";
+    } else {
+      pilihanKomputer = "gunting";
+    }
+
+    // Menampilkan pilihan yang dipilih oleh user dan komputer
+    alert("Anda memilih " + pilihanUser + ", komputer memilih " + pilihanKomputer);
+
+    // Menentukan pemenang
+    if (pilihanUser === pilihanKomputer) {
+      alert("Hasilnya seri!");
+    } else if (pilihanUser === "batu") {
+      if (pilihanKomputer === "gunting") {
+        alert("Anda menang!");
+      } else {
+        alert("Komputer menang!");
+      }
+    } else if (pilihanUser === "kertas") {
+      if (pilihanKomputer === "batu") {
+        alert("Anda menang!");
+      } else {
+        alert("Komputer menang!");
+      }
+    } else if (pilihanUser === "gunting") {
+      if (pilihanKomputer === "kertas") {
+        alert("Anda menang!");
+      } else {
+        alert("Komputer menang!");
+      }
+    } else {
+      alert("Input Anda tidak valid. Silakan coba lagi.");
+    }
+  }
+}
+
+// Memanggil fungsi untuk memulai permainan
+mulaiPermainan();
+    </script>
+</head>
+<body>
+</html>

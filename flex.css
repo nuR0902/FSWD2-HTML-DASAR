@@ -1,0 +1,150 @@
+*{
+    text-align: center;
+}
+body{
+    margin: auto;
+    justify-content: center;
+}
+
+i{
+    margin: auto;
+    text-align: center;
+}
+
+.flex-container{
+    background-color: rgb(110, 191, 139);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex-direction: column;
+    gap: 15px 15px;
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.itemflex{
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.wrapper1{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: auto;
+}
+
+
+.satu{
+    background-color: rgb(56, 178, 235);
+    width: 160px;
+    height: 160px;
+}
+
+.dua{
+    background-color: rgb(250, 228, 157);
+    height: 160px; 
+}
+
+.wrapper2{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.tiga{
+    background-color: rgb(151, 237, 248);
+    width: 185px;
+    height: 60px;
+}
+
+.wrapper2-1{
+    display: flex;
+    gap: 15px 15px;
+}
+
+.bagian2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.empat{
+    background-color: rgb(143, 231, 198);
+    height: 140px;
+    width: 65px;
+}
+
+.lima{
+    background-color: rgb(176, 238, 189);
+    width: 65px;
+    height: 65px;
+}
+
+.bagian3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.enam{
+    
+    background-color: rgb(238, 176, 176);
+    width: 65px;
+    height: 65px;
+}
+
+.tujuh{
+    background-color: rgb(238, 204, 176);
+    height: 140px;
+    width: 65px;
+}
+
+.wrapper3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.bagian1-2{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.delapan{
+    background-color: rgb(153, 192, 236);
+    width: 280px;
+    height: 65px;
+}
+.sembilan{
+    background-color: rgb(180, 176, 238);
+    width: 65px;
+    height: 65px;
+}
+
+.bagian2-2{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.sepuluh{
+    background-color: rgb(134, 226, 238);
+    width: 400px;
+    height: 65px;
+}
